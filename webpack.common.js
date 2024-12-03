@@ -101,6 +101,25 @@ module.exports = {
       filename: './index.html',
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/preview.html',
+      filename: './preview.html',
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/article.html',
+      filename: './article.html',
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/tests.html',
+      filename: './tests.html',
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/styleguid.html',
+      filename: './styleguid.html',
+    }),
 
     
     // Article
